@@ -1,1 +1,1 @@
-ModuleNotFoundError: No module named 'team'
+ModuleNotFoundError: No module named 'cau-osp2020-soohnzzang.team'
