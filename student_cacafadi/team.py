@@ -8,7 +8,7 @@ from loa.team import TeamExaminer
 def get_team():
     return Team("Benzi")
 
-class MyUnit1(Unit):
+class dollar(Unit):
     
     HP = 7  # Hit Points (health points)    
     ATT = 10  # Attack
@@ -25,29 +25,20 @@ class MyUnit1(Unit):
                          arm=cls.ARM,
                          evs=cls.EVS)
 
-class MyUnit2(Unit):
-    
-    HP = 8  # Hit Points (health points)    
-    ATT = 8  # Attack
-    ARM = 5  # Armor
-    EVS = 9 # Evasion
-        
-    def __init__(self, team, name, pos):
-        cls = __class__
-        super().__init__(team,
-                         name,
-                         pos,
-                         hp=cls.HP,
-                         att=cls.ATT,
-                         arm=cls.ARM,
-                         evs=cls.EVS)
 
 class MyTeam(Team):
     def initialize(self):
-        for i in range(10):
-            unit = MyUnit1(self, "A-Unit%02d"%(i+1), i)
-            self.units.append(unit)
-            
+        self.units.append(dollar(self, "Unit1-01", 0))
+        self.units.append(dollar(self, "Unit1-01", 1))  
+        self.units.append(dollar(self, "Unit1-01", 2))
+        self.units.append(dollar(self, "Unit1-01", 3))        
+        self.units.append(dollar(self, "Unit1-01", 4))        
+        self.units.append(dollar(self, "Unit1-01", 5))    
+        self.units.append(dollar(self, "Unit1-01", 6))
+        self.units.append(dollar(self, "Unit1-01", 7))        
+        self.units.append(dollar(self, "Unit1-01", 8))   
+        self.units.append(dollar(self, "Unit1-01", 9))
+        
     def arrange(self, enemy: Team):        
         pass
     
