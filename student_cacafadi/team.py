@@ -27,8 +27,8 @@ class MyUnit1(Unit):
 
 class MyUnit2(Unit):
     
-    HP = 7  # Hit Points (health points)    
-    ATT = 9  # Attack
+    HP = 8  # Hit Points (health points)    
+    ATT = 8  # Attack
     ARM = 5  # Armor
     EVS = 9 # Evasion
         
