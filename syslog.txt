@@ -1,5 +1,5 @@
-[ERROR]   File "/home/dwlee/repos/loa/loa/team.py", line 122, in check
+[ERROR]   File "/home/dwlee/repos/loa/loa/team.py", line 123, in check
     self._check_constraints(team, league_round)
-  File "/home/dwlee/repos/loa/loa/team.py", line 186, in _check_constraints
+  File "/home/dwlee/repos/loa/loa/team.py", line 237, in _check_constraints
     raise ValueError(err_msg)
 ValueError: [Benzi@soohnzzang] The number of units should be 10, not 0
