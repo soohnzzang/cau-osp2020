@@ -1,4 +1,4 @@
-[ERROR]   File "D:\repos\loa-server\loa_server\repos\cau-osp2020-soohnzzang\student_cacafadi\team.py", line 1
+[ERROR]   File "/home/dwlee/repos/loa-server/loa_server/repos/cau-osp2020-soohnzzang/student_cacafadi/team.py", line 1
     <<<<<<< HEAD
     ^
 SyntaxError: invalid syntax
