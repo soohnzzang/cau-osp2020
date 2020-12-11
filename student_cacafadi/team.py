@@ -7,12 +7,29 @@ from loa.team import TeamExaminer
 def get_team():
     return MyTeam("Benzi")
 
-class dollar(Unit):
+class Tendollar(Unit):
     
-    HP = 7  # Hit Points (health points)    
-    ATT = 9  # Attack
-    ARM = 4  # Armor
-    EVS = 8 # Evasion
+    HP = 20  # Hit Points (health points)    
+    ATT = 100 # Attack
+    ARM = 47  # Armor
+    EVS = 10 # Evasion
+        
+    def __init__(self, team, name, pos):
+        cls = __class__
+        super().__init__(team,
+                         name,
+                         pos,
+                         hp=cls.HP,
+                         att=cls.ATT,
+                         arm=cls.ARM,
+                         evs=cls.EVS)
+        
+class Fivedollar(Unit):
+    
+    HP = 1  # Hit Points (health points)    
+    ATT = 1  # Attack
+    ARM = 1  # Armor
+    EVS = 1 # Evasion
         
     def __init__(self, team, name, pos):
         cls = __class__
@@ -25,18 +42,20 @@ class dollar(Unit):
                          evs=cls.EVS)
 
 
+
+
 class MyTeam(Team):
     def initialize(self):
-        self.units.append(dollar(self, "Unit1-01", 0))
-        self.units.append(dollar(self, "Unit1-01", 1))  
-        self.units.append(dollar(self, "Unit1-01", 2))
-        self.units.append(dollar(self, "Unit1-01", 3))        
-        self.units.append(dollar(self, "Unit1-01", 4))        
-        self.units.append(dollar(self, "Unit1-01", 5))    
-        self.units.append(dollar(self, "Unit1-01", 6))
-        self.units.append(dollar(self, "Unit1-01", 7))        
-        self.units.append(dollar(self, "Unit1-01", 8))   
-        self.units.append(dollar(self, "Unit1-01", 9))
+        self.units.append(Fivedollar(self, "Unit1-01", 0))
+        self.units.append(Fivedollar(self, "Unit1-01", 1))  
+        self.units.append(Fivedollar(self, "Unit1-01", 2))
+        self.units.append(Fivedollar(self, "Unit1-01", 3))        
+        self.units.append(Fivedollar(self, "Unit1-01", 4))        
+        self.units.append(Fivedollar(self, "Unit1-01", 5))    
+        self.units.append(Fivedollar(self, "Unit1-01", 6))
+        self.units.append(Fivedollar(self, "Unit1-01", 7))        
+        self.units.append(Tendollar(self, "Unit1-01", 8))   
+        self.units.append(Fivedollar(self, "Unit1-01", 9))
         
     def arrange(self, enemy: Team):        
         pass
