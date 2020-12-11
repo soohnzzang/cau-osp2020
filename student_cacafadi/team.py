@@ -11,7 +11,7 @@ def get_team():
 class dollar(Unit):
     
     HP = 7  # Hit Points (health points)    
-    ATT = 8  # Attack
+    ATT = 9  # Attack
     ARM = 4  # Armor
     EVS = 8 # Evasion
         
@@ -53,3 +53,6 @@ class TestTeam(unittest.TestCase):
    
 if __name__ == "__main__":
     unittest.main()
+    
+    
+    
