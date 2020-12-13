@@ -9,10 +9,10 @@ def get_team():
 
 class Fivedollar(Unit):
     
-    HP = 10  # Hit Points (health points)    
-    ATT = 19.7 # Attack
-    ARM = 10  # Armor
-    EVS = 1 # Evasion
+    HP = 9 # Hit Points (health points)    
+    ATT = 15 # Attack
+    ARM = 9.3  # Armor
+    EVS = 0 # Evasion
         
     def __init__(self, team, name, pos):
         cls = __class__
@@ -26,10 +26,10 @@ class Fivedollar(Unit):
         
 class Tendollar(Unit):
     
-    HP = 0.1  # Hit Points (health points)    
-    ATT = 0.1  # Attack
-    ARM = 0.1  # Armor
-    EVS = 0.1 # Evasion
+    HP = 0.001  # Hit Points (health points)    
+    ATT = 0  # Attack
+    ARM = 0.001  # Armor
+    EVS = 0 # Evasion
         
     def __init__(self, team, name, pos):
         cls = __class__
@@ -47,7 +47,7 @@ class Tendollar(Unit):
 class MyTeam(Team):
     def initialize(self):
         self.units.append(Fivedollar(self, "Unit1-01", 0))
-        self.units.append(Tendollar(self, "Unit1-01", 1))  
+        self.units.append(Fivedollar(self, "Unit1-01", 1))  
         self.units.append(Fivedollar(self, "Unit1-01", 2))
         self.units.append(Tendollar(self, "Unit1-01", 3))        
         self.units.append(Fivedollar(self, "Unit1-01", 4))        
