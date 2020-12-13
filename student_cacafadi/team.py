@@ -9,9 +9,9 @@ def get_team():
 
 class Fivedollar(Unit):
     
-    HP = 9 # Hit Points (health points)    
-    ATT = 15 # Attack
-    ARM = 9.3  # Armor
+    HP = 7 # Hit Points (health points)    
+    ATT = 20.3 # Attack
+    ARM = 6  # Armor
     EVS = 0 # Evasion
         
     def __init__(self, team, name, pos):
