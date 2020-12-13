@@ -26,9 +26,9 @@ class Fivedollar(Unit):
         
 class Tendollar(Unit):
     
-    HP = 0.001  # Hit Points (health points)    
+    HP = 0.00001  # Hit Points (health points)    
     ATT = 0  # Attack
-    ARM = 0.001  # Armor
+    ARM = 0.00001  # Armor
     EVS = 0 # Evasion
         
     def __init__(self, team, name, pos):
