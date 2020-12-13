@@ -7,11 +7,11 @@ from loa.team import TeamExaminer
 def get_team():
     return MyTeam("⚡Benzi⚡")
 
-class Tendollar(Unit):
+class Fivedollar(Unit):
     
-    HP = 20  # Hit Points (health points)    
-    ATT = 100 # Attack
-    ARM = 50  # Armor
+    HP = 10  # Hit Points (health points)    
+    ATT = 19.7 # Attack
+    ARM = 10  # Armor
     EVS = 1 # Evasion
         
     def __init__(self, team, name, pos):
@@ -24,12 +24,12 @@ class Tendollar(Unit):
                          arm=cls.ARM,
                          evs=cls.EVS)
         
-class Fivedollar(Unit):
+class Tendollar(Unit):
     
-    HP = 1  # Hit Points (health points)    
-    ATT = 1  # Attack
-    ARM = 1  # Armor
-    EVS = 2 # Evasion
+    HP = 0.1  # Hit Points (health points)    
+    ATT = 0.1  # Attack
+    ARM = 0.1  # Armor
+    EVS = 0.1 # Evasion
         
     def __init__(self, team, name, pos):
         cls = __class__
@@ -49,13 +49,13 @@ class MyTeam(Team):
         self.units.append(Fivedollar(self, "Unit1-01", 0))
         self.units.append(Tendollar(self, "Unit1-01", 1))  
         self.units.append(Fivedollar(self, "Unit1-01", 2))
-        self.units.append(Fivedollar(self, "Unit1-01", 3))        
+        self.units.append(Tendollar(self, "Unit1-01", 3))        
         self.units.append(Fivedollar(self, "Unit1-01", 4))        
-        self.units.append(Fivedollar(self, "Unit1-01", 5))    
+        self.units.append(Tendollar(self, "Unit1-01", 5))    
         self.units.append(Fivedollar(self, "Unit1-01", 6))
-        self.units.append(Fivedollar(self, "Unit1-01", 7))        
+        self.units.append(Tendollar(self, "Unit1-01", 7))        
         self.units.append(Fivedollar(self, "Unit1-01", 8))   
-        self.units.append(Fivedollar(self, "Unit1-01", 9))
+        self.units.append(Tendollar(self, "Unit1-01", 9))
         
     def arrange(self, enemy: Team):        
         pass
@@ -71,4 +71,3 @@ class TestTeam(unittest.TestCase):
    
 if __name__ == "__main__":
     unittest.main()
-    
