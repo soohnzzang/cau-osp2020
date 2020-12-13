@@ -1,1 +1,5 @@
-[SUCCESS] soohnzzang's module has been successfully imported!
+[ERROR]   File "d:\repos\loa\loa\team.py", line 124, in check
+    self._check_constraints(team, league_round)
+  File "d:\repos\loa\loa\team.py", line 321, in _check_constraints
+    raise ValueError(err_msg)
+ValueError: [Unit1-01] The HP of each unit should be greater than or equal to 10.00, not 7.00!
