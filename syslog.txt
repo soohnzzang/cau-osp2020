@@ -1,7 +1,1 @@
-[ERROR]   File "/home/dwlee/repos/loa-server/loa_server/repos/cau-osp2020-soohnzzang/student_cacafadi/team.py", line 10, in get_team
-    return MyTeam("⚡Benzi⚡")
-  File "/home/dwlee/repos/loa/loa/team.py", line 32, in __init__
-    self.initialize()
-  File "/home/dwlee/repos/loa-server/loa_server/repos/cau-osp2020-soohnzzang/student_cacafadi/team.py", line 34, in initialize
-    unit = MyUnit1(self, "A-Unit%02d"%(i+1), i)
-NameError: name 'MyUnit1' is not defined
+[SUCCESS] soohnzzang's module has been successfully imported!
