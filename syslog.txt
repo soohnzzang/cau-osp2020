@@ -1,5 +1,5 @@
 [ERROR]   File "/home/dwlee/repos/loa/loa/team.py", line 118, in check
     self._check_constraints(team, league_round)
-  File "/home/dwlee/repos/loa/loa/team.py", line 315, in _check_constraints
+  File "/home/dwlee/repos/loa/loa/team.py", line 316, in _check_constraints
     raise ValueError(err_msg)
-ValueError: [Unit1-01] The HP of each unit should be greater than or equal to 10.00, not 7.000000!
+ValueError: [Unit1-01] The ATT of each unit should be less than or equal to 14.00, not 20.000000!
