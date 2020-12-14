@@ -31,12 +31,20 @@ class O(Unit):
 class MyTeam(Team):
     def initialize(self):
         for i in range(10):
-            unit = MyUnit1(self, "A-Unit%02d"%(i+1), i)
+            unit = O(self, "B-Unit%02d"%(i+1), i)
             self.units.append(unit)
             
-    def arrange(self, enemy: Team):        
-        pass
-    
+    def arrange(self, enemy: Team):
+        first_unit = self.units[0]
+        for i in range(self.num_positions - 1):
+            j = i + 1 
+            self.units[i] = self.units[j]
+            if self.units[i] != None:
+               self.units[i].pos = i 
+        # end of for
+        self.units[-1] = first_unit
+        if self.units[-1] != None:
+            self.units[-1].pos = self.num_positions - 1
             
 class TestTeam(unittest.TestCase):
     
