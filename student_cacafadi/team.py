@@ -1,17 +1,18 @@
-import unittest
-
 from loa.unit import Unit
 from loa.team import Team
 from loa.team import TeamExaminer
+from loa.judge import EachTurnMaxSurvivalJudge
+from loa.simulator import BasicSimulator
+from loa.logging import use_logging, finish_logging
 
 def get_team():
     return MyTeam("⚡Benzi⚡")
 
-class Fivedollar(Unit):
+class O(Unit):
     
-    HP = 7 # Hit Points (health points)    
-    ATT = 20 # Attack
-    ARM = 6.3  # Armor
+    HP = 11 # Hit Points (health points)    
+    ATT = 14 # Attack
+    ARM = 16.3  # Armor
     EVS = 0 # Evasion
         
     def __init__(self, team, name, pos):
@@ -23,40 +24,15 @@ class Fivedollar(Unit):
                          att=cls.ATT,
                          arm=cls.ARM,
                          evs=cls.EVS)
-        
-class Tendollar(Unit):
-    
-    HP = 0.00001  # Hit Points (health points)    
-    ATT = 0  # Attack
-    ARM = 0.00001  # Armor
-    EVS = 0 # Evasion
-        
-    def __init__(self, team, name, pos):
-        cls = __class__
-        super().__init__(team,
-                         name,
-                         pos,
-                         hp=cls.HP,
-                         att=cls.ATT,
-                         arm=cls.ARM,
-                         evs=cls.EVS)
-
-
+       
 
 
 class MyTeam(Team):
     def initialize(self):
-        self.units.append(Fivedollar(self, "Unit1-01", 0))
-        self.units.append(Fivedollar(self, "Unit1-01", 1))  
-        self.units.append(Fivedollar(self, "Unit1-01", 2))
-        self.units.append(Tendollar(self, "Unit1-01", 3))        
-        self.units.append(Fivedollar(self, "Unit1-01", 4))        
-        self.units.append(Tendollar(self, "Unit1-01", 5))    
-        self.units.append(Fivedollar(self, "Unit1-01", 6))
-        self.units.append(Tendollar(self, "Unit1-01", 7))        
-        self.units.append(Fivedollar(self, "Unit1-01", 8))   
-        self.units.append(Tendollar(self, "Unit1-01", 9))
-        
+        for i in range(10):
+            unit = MyUnit1(self, "A-Unit%02d"%(i+1), i)
+            self.units.append(unit)
+            
     def arrange(self, enemy: Team):        
         pass
     
