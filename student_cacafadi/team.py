@@ -7,7 +7,7 @@ from loa.simulator import BasicSimulator
 from loa.logging import use_logging, finish_logging
 
 def get_team():
-    return MyTeam("(🌕'◡'🌕)")
+    return MyTeam("휙휙")
 
 class O(Unit):
     
@@ -57,7 +57,7 @@ class MyTeam(Team):
         self.units.append(I(self, "Unit1-01", 9))
         
     def arrange(self, enemy: Team):
-        first_unit = self.units[0]
+        first_unit = self.units[-1]
         for i in range(self.num_positions - 1):
             j = i + 1 
             self.units[i] = self.units[j]
@@ -71,7 +71,7 @@ class MyTeam(Team):
 class TestTeam(unittest.TestCase):
     
     def test_team(self):
-        team=MyTeam("(🌕'◡'🌕)")
+        team=MyTeam("휙휙")
         examiner=TeamExaminer()
         examiner.check(team)
         examiner.check(team)
