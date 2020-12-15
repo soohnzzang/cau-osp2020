@@ -1,1 +1,5 @@
-[SUCCESS] soohnzzang's module has been successfully imported!
+[ERROR]   File "/home/dwlee/repos/loa/loa/team.py", line 118, in check
+    self._check_constraints(team, league_round)
+  File "/home/dwlee/repos/loa/loa/team.py", line 349, in _check_constraints
+    raise ValueError(err_msg)
+ValueError: [💫휙휙💫@soohnzzang] The summation of HP, ATT and 1.5*ARM of each unit should be less than or equal to 50.00, not 64.000000!
