@@ -1,5 +1,5 @@
 [ERROR]   File "/home/dwlee/repos/loa/loa/team.py", line 118, in check
     self._check_constraints(team, league_round)
-  File "/home/dwlee/repos/loa/loa/team.py", line 303, in _check_constraints
+  File "/home/dwlee/repos/loa/loa/team.py", line 349, in _check_constraints
     raise ValueError(err_msg)
-ValueError: [⚡Benzi⚡@soohnzzang] The number of units should be 10, not 20
+ValueError: [(●'◡'●)@soohnzzang] The summation of HP, ATT and 1.5*ARM of each unit should be less than or equal to 50.00, not 74.990000!
