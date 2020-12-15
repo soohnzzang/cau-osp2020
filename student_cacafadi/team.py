@@ -82,7 +82,7 @@ class MyTeam(Team):
 class TestTeam(unittest.TestCase):
     
     def test_team(self):
-        team=MyTeam("DRDDS")
+        team=MyTeam("😶DDRS")
         examiner=TeamExaminer()
         examiner.check(team)
         examiner.check(team)
