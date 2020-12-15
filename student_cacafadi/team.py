@@ -30,7 +30,7 @@ class O(Unit):
 
 class MyTeam(Team):
     def initialize(self):
-        for i in range(10):
+        for i in range(20):
             unit = O(self, "B-Unit%02d"%(i+1), i)
             self.units.append(unit)
             
