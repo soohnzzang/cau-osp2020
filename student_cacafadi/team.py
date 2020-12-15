@@ -11,9 +11,9 @@ def get_team():
 
 class O(Unit):
     
-    HP = 11 # Hit Points (health points)    
+    HP = 31.000000001 # Hit Points (health points)    
     ATT = 14 # Attack
-    ARM = 16.3  # Armor
+    ARM = 12.6666666  # Armor
     EVS = 0 # Evasion
         
     def __init__(self, team, name, pos):
@@ -45,16 +45,16 @@ class I(Unit): #뻐기기
 
 class MyTeam(Team):
     def initialize(self):
-        self.units.append(I(self, "Unit1-01", 0))
-        self.units.append(I(self, "Unit1-01", 1))  
-        self.units.append(I(self, "Unit1-01", 2))
-        self.units.append(I(self, "Unit1-01", 3))        
-        self.units.append(I(self, "Unit1-01", 4))        
-        self.units.append(I(self, "Unit1-01", 5))    
-        self.units.append(I(self, "Unit1-01", 6))
-        self.units.append(I(self, "Unit1-01", 7))        
-        self.units.append(I(self, "Unit1-01", 8))   
-        self.units.append(I(self, "Unit1-01", 9))
+        self.units.append(O(self, "Unit1-01", 0))
+        self.units.append(O(self, "Unit1-01", 1))  
+        self.units.append(O(self, "Unit1-01", 2))
+        self.units.append(O(self, "Unit1-01", 3))        
+        self.units.append(O(self, "Unit1-01", 4))        
+        self.units.append(O(self, "Unit1-01", 5))    
+        self.units.append(O(self, "Unit1-01", 6))
+        self.units.append(O(self, "Unit1-01", 7))        
+        self.units.append(O(self, "Unit1-01", 8))   
+        self.units.append(O(self, "Unit1-01", 9))
         
     def arrange(self, enemy: Team):
         first_unit = self.units[0]
