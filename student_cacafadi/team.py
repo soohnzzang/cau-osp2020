@@ -7,7 +7,7 @@ from loa.simulator import BasicSimulator
 from loa.logging import use_logging, finish_logging
 
 def get_team():
-    return MyTeam("난 이길이 아니야")
+    return MyTeam("DRDDS")
 
 class O(Unit):
     
@@ -55,7 +55,7 @@ class MyTeam(Team):
 class TestTeam(unittest.TestCase):
     
     def test_team(self):
-        team=MyTeam("난 이길이 아니야")
+        team=MyTeam("DRDDS")
         examiner=TeamExaminer()
         examiner.check(team)
         examiner.check(team)
