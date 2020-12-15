@@ -57,7 +57,7 @@ class MyTeam(Team):
         self.units.append(I(self, "Unit1-01", 9))
         
     def arrange(self, enemy: Team):
-        first_unit = self.units[-1]
+        first_unit = self.units[0]
         for i in range(self.num_positions - 1):
             j = i + 1 
             self.units[i] = self.units[j]
