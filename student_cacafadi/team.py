@@ -7,13 +7,13 @@ from loa.simulator import BasicSimulator
 from loa.logging import use_logging, finish_logging
 
 def get_team():
-    return MyTeam("〰INJUNG〰")
+    return MyTeam("난 이길이 아니야")
 
 class O(Unit):
     
-    HP = 31.000000001 # Hit Points (health points)    
+    HP = 35 # Hit Points (health points)    
     ATT = 0 # Attack
-    ARM = 12.6666666  # Armor
+    ARM = 10  # Armor
     EVS = 0 # Evasion
         
     def __init__(self, team, name, pos):
@@ -25,22 +25,6 @@ class O(Unit):
                          att=cls.ATT,
                          arm=cls.ARM,
                          evs=cls.EVS)
-class I(Unit): #뻐기기
-    # X + 1.5Y >= 50
-    HP = 18 # Hit Points (health points)    
-    ATT = 0 # Attack
-    ARM = 21.333 # Armor
-    EVS = 0 # Evasion
-        
-    def __init__(self, team, name, pos):
-        cls = __class__
-        super().__init__(team,
-                         name,
-                         pos,
-                         hp=cls.HP,
-                         att=cls.ATT,
-                         arm=cls.ARM,
-                         evs=cls.EVS)        
        
 
 class MyTeam(Team):
@@ -71,7 +55,7 @@ class MyTeam(Team):
 class TestTeam(unittest.TestCase):
     
     def test_team(self):
-        team=MyTeam("〰INJUNG〰")
+        team=MyTeam("난 이길이 아니야")
         examiner=TeamExaminer()
         examiner.check(team)
         examiner.check(team)
