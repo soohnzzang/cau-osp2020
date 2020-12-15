@@ -27,9 +27,9 @@ class O(Unit):
                          evs=cls.EVS)
 class I(Unit): #뻐기기
     # X + 1.5Y >= 50
-    HP = 20 # Hit Points (health points)    
+    HP = 18 # Hit Points (health points)    
     ATT = 0 # Attack
-    ARM = 20 # Armor
+    ARM = 21.333 # Armor
     EVS = 0 # Evasion
         
     def __init__(self, team, name, pos):
