@@ -7,7 +7,7 @@ from loa.simulator import BasicSimulator
 from loa.logging import use_logging, finish_logging
 
 def get_team():
-    return MyTeam("⚡Benzi⚡")
+    return MyTeam("(●'◡'●)")
 
 class O(Unit):
     
@@ -52,19 +52,9 @@ class MyTeam(Team):
         self.units.append(O(self, "Unit1-01", 4))        
         self.units.append(O(self, "Unit1-01", 5))    
         self.units.append(O(self, "Unit1-01", 6))
-        self.units.append(O(self, "Unit1-01", 7))        
-        self.units.append(O(self, "Unit1-01", 8))   
-        self.units.append(O(self, "Unit1-01", 9))
-        self.units.append(O(self, "Unit1-01", 10))
-        self.units.append(O(self, "Unit1-01", 11))  
-        self.units.append(O(self, "Unit1-01", 12))
-        self.units.append(O(self, "Unit1-01", 13))        
-        self.units.append(O(self, "Unit1-01", 14))        
-        self.units.append(O(self, "Unit1-01", 15))    
-        self.units.append(O(self, "Unit1-01", 16))
-        self.units.append(I(self, "Unit1-01", 17))        
-        self.units.append(I(self, "Unit1-01", 18))   
-        self.units.append(I(self, "Unit1-01", 19))
+        self.units.append(I(self, "Unit1-01", 7))        
+        self.units.append(I(self, "Unit1-01", 8))   
+        self.units.append(I(self, "Unit1-01", 9))
         
     def arrange(self, enemy: Team):
         first_unit = self.units[0]
@@ -81,7 +71,7 @@ class MyTeam(Team):
 class TestTeam(unittest.TestCase):
     
     def test_team(self):
-        team=MyTeam("⚡Benzi⚡")
+        team=MyTeam("(●'◡'●)")
         examiner=TeamExaminer()
         examiner.check(team)
         examiner.check(team)
