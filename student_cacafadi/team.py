@@ -7,13 +7,13 @@ from loa.simulator import BasicSimulator
 from loa.logging import use_logging, finish_logging
 
 def get_team():
-    return MyTeam("DRDDS")
+    return MyTeam("😶DDRS")
 
 class benzi(Unit):
     
-    HP = 29.000000001 # Hit Points (health points)    
+    HP = 32 # Hit Points (health points)    
     ATT = 0 # Attack
-    ARM = 13.6666666  # Armor
+    ARM = 11  # Armor
     EVS = 0 # Evasion
         
     def __init__(self, team, name, pos):
