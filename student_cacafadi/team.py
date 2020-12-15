@@ -11,9 +11,9 @@ def get_team():
 
 class O(Unit):
     
-    HP = 33.000000001 # Hit Points (health points)    
+    HP = 30.000000001 # Hit Points (health points)    
     ATT = 0 # Attack
-    ARM = 10.6666666  # Armor
+    ARM = 11.6666666  # Armor
     EVS = 0 # Evasion
         
     def __init__(self, team, name, pos):
