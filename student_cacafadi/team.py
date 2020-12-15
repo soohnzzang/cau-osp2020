@@ -50,9 +50,9 @@ class MyTeam(Team):
         self.units.append(I(self, "Unit1-01", 2))
         self.units.append(I(self, "Unit1-01", 3))        
         self.units.append(I(self, "Unit1-01", 4))        
-        self.units.append(O(self, "Unit1-01", 5))    
-        self.units.append(O(self, "Unit1-01", 6))
-        self.units.append(O(self, "Unit1-01", 7))        
+        self.units.append(I(self, "Unit1-01", 5))    
+        self.units.append(I(self, "Unit1-01", 6))
+        self.units.append(I(self, "Unit1-01", 7))        
         self.units.append(I(self, "Unit1-01", 8))   
         self.units.append(I(self, "Unit1-01", 9))
         
