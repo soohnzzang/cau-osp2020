@@ -1,1 +1,409 @@
 [SUCCESS] soohnzzang's module has been successfully imported!
+
+[ERROR]   File "/home/dwlee/repos/loa/loa/team.py", line 136, in check_play
+    self._check_positions(defense)
+  File "/home/dwlee/repos/loa/loa/team.py", line 207, in _check_positions
+    raise ValueError(err_msg%(team.name, i, unit.pos))
+ValueError: [휙휙@soohnzzang] The position of the unit is different from the real position 8, not 9.
+
+[ERROR]   File "/home/dwlee/repos/loa/loa/team.py", line 136, in check_play
+    self._check_positions(defense)
+  File "/home/dwlee/repos/loa/loa/team.py", line 207, in _check_positions
+    raise ValueError(err_msg%(team.name, i, unit.pos))
+ValueError: [휙휙@soohnzzang] The position of the unit is different from the real position 8, not 9.
+
+[ERROR]   File "/home/dwlee/repos/loa/loa/team.py", line 136, in check_play
+    self._check_positions(defense)
+  File "/home/dwlee/repos/loa/loa/team.py", line 207, in _check_positions
+    raise ValueError(err_msg%(team.name, i, unit.pos))
+ValueError: [휙휙@soohnzzang] The position of the unit is different from the real position 8, not 9.
+
+[ERROR]   File "/home/dwlee/repos/loa/loa/team.py", line 136, in check_play
+    self._check_positions(defense)
+  File "/home/dwlee/repos/loa/loa/team.py", line 207, in _check_positions
+    raise ValueError(err_msg%(team.name, i, unit.pos))
+ValueError: [휙휙@soohnzzang] The position of the unit is different from the real position 8, not 9.
+
+[ERROR]   File "/home/dwlee/repos/loa/loa/team.py", line 136, in check_play
+    self._check_positions(defense)
+  File "/home/dwlee/repos/loa/loa/team.py", line 207, in _check_positions
+    raise ValueError(err_msg%(team.name, i, unit.pos))
+ValueError: [휙휙@soohnzzang] The position of the unit is different from the real position 8, not 9.
+
+[ERROR]   File "/home/dwlee/repos/loa/loa/team.py", line 136, in check_play
+    self._check_positions(defense)
+  File "/home/dwlee/repos/loa/loa/team.py", line 207, in _check_positions
+    raise ValueError(err_msg%(team.name, i, unit.pos))
+ValueError: [휙휙@soohnzzang] The position of the unit is different from the real position 8, not 9.
+
+[ERROR]   File "/home/dwlee/repos/loa/loa/team.py", line 136, in check_play
+    self._check_positions(defense)
+  File "/home/dwlee/repos/loa/loa/team.py", line 207, in _check_positions
+    raise ValueError(err_msg%(team.name, i, unit.pos))
+ValueError: [휙휙@soohnzzang] The position of the unit is different from the real position 8, not 9.
+
+[ERROR]   File "/home/dwlee/repos/loa/loa/team.py", line 136, in check_play
+    self._check_positions(defense)
+  File "/home/dwlee/repos/loa/loa/team.py", line 207, in _check_positions
+    raise ValueError(err_msg%(team.name, i, unit.pos))
+ValueError: [휙휙@soohnzzang] The position of the unit is different from the real position 8, not 9.
+
+[ERROR]   File "/home/dwlee/repos/loa/loa/team.py", line 136, in check_play
+    self._check_positions(defense)
+  File "/home/dwlee/repos/loa/loa/team.py", line 207, in _check_positions
+    raise ValueError(err_msg%(team.name, i, unit.pos))
+ValueError: [휙휙@soohnzzang] The position of the unit is different from the real position 8, not 9.
+
+[ERROR]   File "/home/dwlee/repos/loa/loa/team.py", line 136, in check_play
+    self._check_positions(defense)
+  File "/home/dwlee/repos/loa/loa/team.py", line 207, in _check_positions
+    raise ValueError(err_msg%(team.name, i, unit.pos))
+ValueError: [휙휙@soohnzzang] The position of the unit is different from the real position 8, not 9.
+
+[ERROR]   File "/home/dwlee/repos/loa/loa/team.py", line 136, in check_play
+    self._check_positions(defense)
+  File "/home/dwlee/repos/loa/loa/team.py", line 207, in _check_positions
+    raise ValueError(err_msg%(team.name, i, unit.pos))
+ValueError: [휙휙@soohnzzang] The position of the unit is different from the real position 8, not 9.
+
+[ERROR]   File "/home/dwlee/repos/loa/loa/team.py", line 136, in check_play
+    self._check_positions(defense)
+  File "/home/dwlee/repos/loa/loa/team.py", line 207, in _check_positions
+    raise ValueError(err_msg%(team.name, i, unit.pos))
+ValueError: [휙휙@soohnzzang] The position of the unit is different from the real position 8, not 9.
+
+[ERROR]   File "/home/dwlee/repos/loa/loa/team.py", line 136, in check_play
+    self._check_positions(defense)
+  File "/home/dwlee/repos/loa/loa/team.py", line 207, in _check_positions
+    raise ValueError(err_msg%(team.name, i, unit.pos))
+ValueError: [휙휙@soohnzzang] The position of the unit is different from the real position 8, not 9.
+
+[ERROR]   File "/home/dwlee/repos/loa/loa/team.py", line 136, in check_play
+    self._check_positions(defense)
+  File "/home/dwlee/repos/loa/loa/team.py", line 207, in _check_positions
+    raise ValueError(err_msg%(team.name, i, unit.pos))
+ValueError: [휙휙@soohnzzang] The position of the unit is different from the real position 8, not 9.
+
+[ERROR]   File "/home/dwlee/repos/loa/loa/team.py", line 136, in check_play
+    self._check_positions(defense)
+  File "/home/dwlee/repos/loa/loa/team.py", line 207, in _check_positions
+    raise ValueError(err_msg%(team.name, i, unit.pos))
+ValueError: [휙휙@soohnzzang] The position of the unit is different from the real position 8, not 9.
+
+[ERROR]   File "/home/dwlee/repos/loa/loa/team.py", line 136, in check_play
+    self._check_positions(defense)
+  File "/home/dwlee/repos/loa/loa/team.py", line 207, in _check_positions
+    raise ValueError(err_msg%(team.name, i, unit.pos))
+ValueError: [휙휙@soohnzzang] The position of the unit is different from the real position 8, not 9.
+
+[ERROR]   File "/home/dwlee/repos/loa/loa/team.py", line 136, in check_play
+    self._check_positions(defense)
+  File "/home/dwlee/repos/loa/loa/team.py", line 207, in _check_positions
+    raise ValueError(err_msg%(team.name, i, unit.pos))
+ValueError: [휙휙@soohnzzang] The position of the unit is different from the real position 8, not 9.
+
+[ERROR]   File "/home/dwlee/repos/loa/loa/team.py", line 136, in check_play
+    self._check_positions(defense)
+  File "/home/dwlee/repos/loa/loa/team.py", line 207, in _check_positions
+    raise ValueError(err_msg%(team.name, i, unit.pos))
+ValueError: [휙휙@soohnzzang] The position of the unit is different from the real position 8, not 9.
+
+[ERROR]   File "/home/dwlee/repos/loa/loa/team.py", line 136, in check_play
+    self._check_positions(defense)
+  File "/home/dwlee/repos/loa/loa/team.py", line 207, in _check_positions
+    raise ValueError(err_msg%(team.name, i, unit.pos))
+ValueError: [휙휙@soohnzzang] The position of the unit is different from the real position 8, not 9.
+
+[ERROR]   File "/home/dwlee/repos/loa/loa/team.py", line 136, in check_play
+    self._check_positions(defense)
+  File "/home/dwlee/repos/loa/loa/team.py", line 207, in _check_positions
+    raise ValueError(err_msg%(team.name, i, unit.pos))
+ValueError: [휙휙@soohnzzang] The position of the unit is different from the real position 8, not 9.
+
+[ERROR]   File "/home/dwlee/repos/loa/loa/team.py", line 136, in check_play
+    self._check_positions(defense)
+  File "/home/dwlee/repos/loa/loa/team.py", line 207, in _check_positions
+    raise ValueError(err_msg%(team.name, i, unit.pos))
+ValueError: [휙휙@soohnzzang] The position of the unit is different from the real position 8, not 9.
+
+[ERROR]   File "/home/dwlee/repos/loa/loa/team.py", line 136, in check_play
+    self._check_positions(defense)
+  File "/home/dwlee/repos/loa/loa/team.py", line 207, in _check_positions
+    raise ValueError(err_msg%(team.name, i, unit.pos))
+ValueError: [휙휙@soohnzzang] The position of the unit is different from the real position 8, not 9.
+
+[ERROR]   File "/home/dwlee/repos/loa/loa/team.py", line 136, in check_play
+    self._check_positions(defense)
+  File "/home/dwlee/repos/loa/loa/team.py", line 207, in _check_positions
+    raise ValueError(err_msg%(team.name, i, unit.pos))
+ValueError: [휙휙@soohnzzang] The position of the unit is different from the real position 8, not 9.
+
+[ERROR]   File "/home/dwlee/repos/loa/loa/team.py", line 136, in check_play
+    self._check_positions(defense)
+  File "/home/dwlee/repos/loa/loa/team.py", line 207, in _check_positions
+    raise ValueError(err_msg%(team.name, i, unit.pos))
+ValueError: [휙휙@soohnzzang] The position of the unit is different from the real position 8, not 9.
+
+[ERROR]   File "/home/dwlee/repos/loa/loa/team.py", line 136, in check_play
+    self._check_positions(defense)
+  File "/home/dwlee/repos/loa/loa/team.py", line 207, in _check_positions
+    raise ValueError(err_msg%(team.name, i, unit.pos))
+ValueError: [휙휙@soohnzzang] The position of the unit is different from the real position 8, not 9.
+
+[ERROR]   File "/home/dwlee/repos/loa/loa/team.py", line 136, in check_play
+    self._check_positions(defense)
+  File "/home/dwlee/repos/loa/loa/team.py", line 207, in _check_positions
+    raise ValueError(err_msg%(team.name, i, unit.pos))
+ValueError: [휙휙@soohnzzang] The position of the unit is different from the real position 8, not 9.
+
+[ERROR]   File "/home/dwlee/repos/loa/loa/team.py", line 136, in check_play
+    self._check_positions(defense)
+  File "/home/dwlee/repos/loa/loa/team.py", line 207, in _check_positions
+    raise ValueError(err_msg%(team.name, i, unit.pos))
+ValueError: [휙휙@soohnzzang] The position of the unit is different from the real position 8, not 9.
+
+[ERROR]   File "/home/dwlee/repos/loa/loa/team.py", line 136, in check_play
+    self._check_positions(defense)
+  File "/home/dwlee/repos/loa/loa/team.py", line 207, in _check_positions
+    raise ValueError(err_msg%(team.name, i, unit.pos))
+ValueError: [휙휙@soohnzzang] The position of the unit is different from the real position 8, not 9.
+
+[ERROR]   File "/home/dwlee/repos/loa/loa/team.py", line 136, in check_play
+    self._check_positions(defense)
+  File "/home/dwlee/repos/loa/loa/team.py", line 207, in _check_positions
+    raise ValueError(err_msg%(team.name, i, unit.pos))
+ValueError: [휙휙@soohnzzang] The position of the unit is different from the real position 8, not 9.
+
+[ERROR]   File "/home/dwlee/repos/loa/loa/team.py", line 136, in check_play
+    self._check_positions(defense)
+  File "/home/dwlee/repos/loa/loa/team.py", line 207, in _check_positions
+    raise ValueError(err_msg%(team.name, i, unit.pos))
+ValueError: [휙휙@soohnzzang] The position of the unit is different from the real position 8, not 9.
+
+[ERROR]   File "/home/dwlee/repos/loa/loa/team.py", line 136, in check_play
+    self._check_positions(defense)
+  File "/home/dwlee/repos/loa/loa/team.py", line 207, in _check_positions
+    raise ValueError(err_msg%(team.name, i, unit.pos))
+ValueError: [휙휙@soohnzzang] The position of the unit is different from the real position 8, not 9.
+
+[ERROR]   File "/home/dwlee/repos/loa/loa/team.py", line 136, in check_play
+    self._check_positions(defense)
+  File "/home/dwlee/repos/loa/loa/team.py", line 207, in _check_positions
+    raise ValueError(err_msg%(team.name, i, unit.pos))
+ValueError: [휙휙@soohnzzang] The position of the unit is different from the real position 8, not 9.
+
+[ERROR]   File "/home/dwlee/repos/loa/loa/team.py", line 136, in check_play
+    self._check_positions(defense)
+  File "/home/dwlee/repos/loa/loa/team.py", line 207, in _check_positions
+    raise ValueError(err_msg%(team.name, i, unit.pos))
+ValueError: [휙휙@soohnzzang] The position of the unit is different from the real position 8, not 9.
+
+[ERROR]   File "/home/dwlee/repos/loa/loa/team.py", line 136, in check_play
+    self._check_positions(defense)
+  File "/home/dwlee/repos/loa/loa/team.py", line 207, in _check_positions
+    raise ValueError(err_msg%(team.name, i, unit.pos))
+ValueError: [휙휙@soohnzzang] The position of the unit is different from the real position 8, not 9.
+
+[ERROR]   File "/home/dwlee/repos/loa/loa/team.py", line 136, in check_play
+    self._check_positions(defense)
+  File "/home/dwlee/repos/loa/loa/team.py", line 207, in _check_positions
+    raise ValueError(err_msg%(team.name, i, unit.pos))
+ValueError: [휙휙@soohnzzang] The position of the unit is different from the real position 8, not 9.
+
+[ERROR]   File "/home/dwlee/repos/loa/loa/team.py", line 136, in check_play
+    self._check_positions(defense)
+  File "/home/dwlee/repos/loa/loa/team.py", line 207, in _check_positions
+    raise ValueError(err_msg%(team.name, i, unit.pos))
+ValueError: [휙휙@soohnzzang] The position of the unit is different from the real position 8, not 9.
+
+[ERROR]   File "/home/dwlee/repos/loa/loa/team.py", line 136, in check_play
+    self._check_positions(defense)
+  File "/home/dwlee/repos/loa/loa/team.py", line 207, in _check_positions
+    raise ValueError(err_msg%(team.name, i, unit.pos))
+ValueError: [휙휙@soohnzzang] The position of the unit is different from the real position 8, not 9.
+
+[ERROR]   File "/home/dwlee/repos/loa/loa/team.py", line 136, in check_play
+    self._check_positions(defense)
+  File "/home/dwlee/repos/loa/loa/team.py", line 207, in _check_positions
+    raise ValueError(err_msg%(team.name, i, unit.pos))
+ValueError: [휙휙@soohnzzang] The position of the unit is different from the real position 8, not 9.
+
+[ERROR]   File "/home/dwlee/repos/loa/loa/team.py", line 136, in check_play
+    self._check_positions(defense)
+  File "/home/dwlee/repos/loa/loa/team.py", line 207, in _check_positions
+    raise ValueError(err_msg%(team.name, i, unit.pos))
+ValueError: [휙휙@soohnzzang] The position of the unit is different from the real position 8, not 9.
+
+[ERROR]   File "/home/dwlee/repos/loa/loa/team.py", line 136, in check_play
+    self._check_positions(defense)
+  File "/home/dwlee/repos/loa/loa/team.py", line 207, in _check_positions
+    raise ValueError(err_msg%(team.name, i, unit.pos))
+ValueError: [휙휙@soohnzzang] The position of the unit is different from the real position 8, not 9.
+
+[ERROR]   File "/home/dwlee/repos/loa/loa/team.py", line 136, in check_play
+    self._check_positions(defense)
+  File "/home/dwlee/repos/loa/loa/team.py", line 207, in _check_positions
+    raise ValueError(err_msg%(team.name, i, unit.pos))
+ValueError: [휙휙@soohnzzang] The position of the unit is different from the real position 8, not 9.
+
+[ERROR]   File "/home/dwlee/repos/loa/loa/team.py", line 136, in check_play
+    self._check_positions(defense)
+  File "/home/dwlee/repos/loa/loa/team.py", line 207, in _check_positions
+    raise ValueError(err_msg%(team.name, i, unit.pos))
+ValueError: [휙휙@soohnzzang] The position of the unit is different from the real position 8, not 9.
+
+[ERROR]   File "/home/dwlee/repos/loa/loa/team.py", line 136, in check_play
+    self._check_positions(defense)
+  File "/home/dwlee/repos/loa/loa/team.py", line 207, in _check_positions
+    raise ValueError(err_msg%(team.name, i, unit.pos))
+ValueError: [휙휙@soohnzzang] The position of the unit is different from the real position 8, not 9.
+
+[ERROR]   File "/home/dwlee/repos/loa/loa/team.py", line 136, in check_play
+    self._check_positions(defense)
+  File "/home/dwlee/repos/loa/loa/team.py", line 207, in _check_positions
+    raise ValueError(err_msg%(team.name, i, unit.pos))
+ValueError: [휙휙@soohnzzang] The position of the unit is different from the real position 8, not 9.
+
+[ERROR]   File "/home/dwlee/repos/loa/loa/team.py", line 136, in check_play
+    self._check_positions(defense)
+  File "/home/dwlee/repos/loa/loa/team.py", line 207, in _check_positions
+    raise ValueError(err_msg%(team.name, i, unit.pos))
+ValueError: [휙휙@soohnzzang] The position of the unit is different from the real position 8, not 9.
+
+[ERROR]   File "/home/dwlee/repos/loa/loa/team.py", line 136, in check_play
+    self._check_positions(defense)
+  File "/home/dwlee/repos/loa/loa/team.py", line 207, in _check_positions
+    raise ValueError(err_msg%(team.name, i, unit.pos))
+ValueError: [휙휙@soohnzzang] The position of the unit is different from the real position 8, not 9.
+
+[ERROR]   File "/home/dwlee/repos/loa/loa/team.py", line 136, in check_play
+    self._check_positions(defense)
+  File "/home/dwlee/repos/loa/loa/team.py", line 207, in _check_positions
+    raise ValueError(err_msg%(team.name, i, unit.pos))
+ValueError: [휙휙@soohnzzang] The position of the unit is different from the real position 8, not 9.
+
+[ERROR]   File "/home/dwlee/repos/loa/loa/team.py", line 136, in check_play
+    self._check_positions(defense)
+  File "/home/dwlee/repos/loa/loa/team.py", line 207, in _check_positions
+    raise ValueError(err_msg%(team.name, i, unit.pos))
+ValueError: [휙휙@soohnzzang] The position of the unit is different from the real position 8, not 9.
+
+[ERROR]   File "/home/dwlee/repos/loa/loa/team.py", line 136, in check_play
+    self._check_positions(defense)
+  File "/home/dwlee/repos/loa/loa/team.py", line 207, in _check_positions
+    raise ValueError(err_msg%(team.name, i, unit.pos))
+ValueError: [휙휙@soohnzzang] The position of the unit is different from the real position 8, not 9.
+
+[ERROR]   File "/home/dwlee/repos/loa/loa/team.py", line 136, in check_play
+    self._check_positions(defense)
+  File "/home/dwlee/repos/loa/loa/team.py", line 207, in _check_positions
+    raise ValueError(err_msg%(team.name, i, unit.pos))
+ValueError: [휙휙@soohnzzang] The position of the unit is different from the real position 8, not 9.
+
+[ERROR]   File "/home/dwlee/repos/loa/loa/team.py", line 136, in check_play
+    self._check_positions(defense)
+  File "/home/dwlee/repos/loa/loa/team.py", line 207, in _check_positions
+    raise ValueError(err_msg%(team.name, i, unit.pos))
+ValueError: [휙휙@soohnzzang] The position of the unit is different from the real position 8, not 9.
+
+[ERROR]   File "/home/dwlee/repos/loa/loa/team.py", line 136, in check_play
+    self._check_positions(defense)
+  File "/home/dwlee/repos/loa/loa/team.py", line 207, in _check_positions
+    raise ValueError(err_msg%(team.name, i, unit.pos))
+ValueError: [휙휙@soohnzzang] The position of the unit is different from the real position 8, not 9.
+
+[ERROR]   File "/home/dwlee/repos/loa/loa/team.py", line 136, in check_play
+    self._check_positions(defense)
+  File "/home/dwlee/repos/loa/loa/team.py", line 207, in _check_positions
+    raise ValueError(err_msg%(team.name, i, unit.pos))
+ValueError: [휙휙@soohnzzang] The position of the unit is different from the real position 8, not 9.
+
+[ERROR]   File "/home/dwlee/repos/loa/loa/team.py", line 136, in check_play
+    self._check_positions(defense)
+  File "/home/dwlee/repos/loa/loa/team.py", line 207, in _check_positions
+    raise ValueError(err_msg%(team.name, i, unit.pos))
+ValueError: [휙휙@soohnzzang] The position of the unit is different from the real position 8, not 9.
+
+[ERROR]   File "/home/dwlee/repos/loa/loa/team.py", line 136, in check_play
+    self._check_positions(defense)
+  File "/home/dwlee/repos/loa/loa/team.py", line 207, in _check_positions
+    raise ValueError(err_msg%(team.name, i, unit.pos))
+ValueError: [휙휙@soohnzzang] The position of the unit is different from the real position 8, not 9.
+
+[ERROR]   File "/home/dwlee/repos/loa/loa/team.py", line 136, in check_play
+    self._check_positions(defense)
+  File "/home/dwlee/repos/loa/loa/team.py", line 207, in _check_positions
+    raise ValueError(err_msg%(team.name, i, unit.pos))
+ValueError: [휙휙@soohnzzang] The position of the unit is different from the real position 8, not 9.
+
+[ERROR]   File "/home/dwlee/repos/loa/loa/team.py", line 136, in check_play
+    self._check_positions(defense)
+  File "/home/dwlee/repos/loa/loa/team.py", line 207, in _check_positions
+    raise ValueError(err_msg%(team.name, i, unit.pos))
+ValueError: [휙휙@soohnzzang] The position of the unit is different from the real position 8, not 9.
+
+[ERROR]   File "/home/dwlee/repos/loa/loa/team.py", line 136, in check_play
+    self._check_positions(defense)
+  File "/home/dwlee/repos/loa/loa/team.py", line 207, in _check_positions
+    raise ValueError(err_msg%(team.name, i, unit.pos))
+ValueError: [휙휙@soohnzzang] The position of the unit is different from the real position 8, not 9.
+
+[ERROR]   File "/home/dwlee/repos/loa/loa/team.py", line 136, in check_play
+    self._check_positions(defense)
+  File "/home/dwlee/repos/loa/loa/team.py", line 207, in _check_positions
+    raise ValueError(err_msg%(team.name, i, unit.pos))
+ValueError: [휙휙@soohnzzang] The position of the unit is different from the real position 8, not 9.
+
+[ERROR]   File "/home/dwlee/repos/loa/loa/team.py", line 136, in check_play
+    self._check_positions(defense)
+  File "/home/dwlee/repos/loa/loa/team.py", line 207, in _check_positions
+    raise ValueError(err_msg%(team.name, i, unit.pos))
+ValueError: [휙휙@soohnzzang] The position of the unit is different from the real position 8, not 9.
+
+[ERROR]   File "/home/dwlee/repos/loa/loa/team.py", line 136, in check_play
+    self._check_positions(defense)
+  File "/home/dwlee/repos/loa/loa/team.py", line 207, in _check_positions
+    raise ValueError(err_msg%(team.name, i, unit.pos))
+ValueError: [휙휙@soohnzzang] The position of the unit is different from the real position 8, not 9.
+
+[ERROR]   File "/home/dwlee/repos/loa/loa/team.py", line 136, in check_play
+    self._check_positions(defense)
+  File "/home/dwlee/repos/loa/loa/team.py", line 207, in _check_positions
+    raise ValueError(err_msg%(team.name, i, unit.pos))
+ValueError: [휙휙@soohnzzang] The position of the unit is different from the real position 8, not 9.
+
+[ERROR]   File "/home/dwlee/repos/loa/loa/team.py", line 136, in check_play
+    self._check_positions(defense)
+  File "/home/dwlee/repos/loa/loa/team.py", line 207, in _check_positions
+    raise ValueError(err_msg%(team.name, i, unit.pos))
+ValueError: [휙휙@soohnzzang] The position of the unit is different from the real position 8, not 9.
+
+[ERROR]   File "/home/dwlee/repos/loa/loa/team.py", line 136, in check_play
+    self._check_positions(defense)
+  File "/home/dwlee/repos/loa/loa/team.py", line 207, in _check_positions
+    raise ValueError(err_msg%(team.name, i, unit.pos))
+ValueError: [휙휙@soohnzzang] The position of the unit is different from the real position 8, not 9.
+
+[ERROR]   File "/home/dwlee/repos/loa/loa/team.py", line 136, in check_play
+    self._check_positions(defense)
+  File "/home/dwlee/repos/loa/loa/team.py", line 207, in _check_positions
+    raise ValueError(err_msg%(team.name, i, unit.pos))
+ValueError: [휙휙@soohnzzang] The position of the unit is different from the real position 8, not 9.
+
+[ERROR]   File "/home/dwlee/repos/loa/loa/team.py", line 136, in check_play
+    self._check_positions(defense)
+  File "/home/dwlee/repos/loa/loa/team.py", line 207, in _check_positions
+    raise ValueError(err_msg%(team.name, i, unit.pos))
+ValueError: [휙휙@soohnzzang] The position of the unit is different from the real position 8, not 9.
+
+[ERROR]   File "/home/dwlee/repos/loa/loa/team.py", line 136, in check_play
+    self._check_positions(defense)
+  File "/home/dwlee/repos/loa/loa/team.py", line 207, in _check_positions
+    raise ValueError(err_msg%(team.name, i, unit.pos))
+ValueError: [휙휙@soohnzzang] The position of the unit is different from the real position 8, not 9.
+
+[ERROR]   File "/home/dwlee/repos/loa/loa/team.py", line 136, in check_play
+    self._check_positions(defense)
+  File "/home/dwlee/repos/loa/loa/team.py", line 207, in _check_positions
+    raise ValueError(err_msg%(team.name, i, unit.pos))
+ValueError: [휙휙@soohnzzang] The position of the unit is different from the real position 8, not 9.
