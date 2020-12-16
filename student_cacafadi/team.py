@@ -7,13 +7,13 @@ from loa.simulator import BasicSimulator
 from loa.logging import use_logging, finish_logging
 
 def get_team():
-    return MyTeam("💫DDRS")
+    return MyTeam("@@")
 
 class MyUnit1(Unit):
     
-    HP = 31.000000001 # Hit Points (health points)    
+    HP = 10 # Hit Points (health points)    
     ATT = 0 # Attack
-    ARM = 12.6666666  # Armor
+    ARM = 0  # Armor
     EVS = 0 # Evasion
         
     def __init__(self, team, name, pos):
@@ -54,7 +54,7 @@ class MyTeam(Team):
 class TestTeam(unittest.TestCase):
     
     def test_team(self):
-        team=MyTeam("💫DDRS")
+        team=MyTeam("@@")
         examiner=TeamExaminer()
         examiner.check(team)
         examiner.check(team)
