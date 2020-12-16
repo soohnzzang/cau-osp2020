@@ -27,7 +27,7 @@ class MyUnit1(Unit):
                          evs=cls.EVS)
         
         
-class MyTeam1(Team):
+class MyTeam(Team):
     def initialize(self):
         self.units.append(MyUnit1(self, "Unit1-01", 0))
         self.units.append(MyUnit1(self, "Unit1-01", 1))  
