@@ -9,11 +9,11 @@ from loa.logging import use_logging, finish_logging
 def get_team():
     return MyTeam("💫DDRS")
 
-class benzi(Unit):
+class MyUnit1(Unit):
     
-    HP = 31 # Hit Points (health points)    
+    HP = 31.000000001 # Hit Points (health points)    
     ATT = 0 # Attack
-    ARM = 12.66  # Armor
+    ARM = 12.6666666  # Armor
     EVS = 0 # Evasion
         
     def __init__(self, team, name, pos):
@@ -25,60 +25,32 @@ class benzi(Unit):
                          att=cls.ATT,
                          arm=cls.ARM,
                          evs=cls.EVS)
-       
-class MyTeam(Team):
+        
+        
+class MyTeam1(Team):
     def initialize(self):
-        for i in range(10):
-            unit = benzi(self, "unit%02d"%(i+1), i)
-            self.units.append(unit)
-       
-    
+        self.units.append(MyUnit1(self, "Unit1-01", 0))
+        self.units.append(MyUnit1(self, "Unit1-01", 1))  
+        self.units.append(MyUnit1(self, "Unit1-01", 2))
+        self.units.append(MyUnit1(self, "Unit1-01", 3))        
+        self.units.append(MyUnit1(self, "Unit1-01", 4))        
+        self.units.append(MyUnit1(self, "Unit1-01", 5))    
+        self.units.append(MyUnit1(self, "Unit1-01", 6))
+        self.units.append(MyUnit1(self, "Unit1-01", 7))        
+        self.units.append(MyUnit1(self, "Unit1-01", 8))   
+        self.units.append(MyUnit1(self, "Unit1-01", 9))
+        
     def arrange(self, enemy: Team):
-        for i in range(self.num_positions):
-            if self.units[i]!=None:
-                for j in range(enemy.num_positions):
-                    if enemy.units[j]==None:
-                        if self.units[j]==None:
-                            self.units[j]=self.units[i]
-                            self.units[j].pos=j
-                            self.units[i]=None
-                            break
-        for i in range(self.num_positions):
-            if self.units[i]!=None:
-                for j in range(enemy.num_positions):
-                    if enemy.units[j]!=None and enemy.units[j].att>self.units[i].arm+1:
-                        if self.units[j]==None:
-                            self.units[j]=self.units[i]
-                            self.units[j].pos=j
-                            self.units[i]=None
-                            break
-                        elif self.units[j]!=None and enemy.units[j].att>self.units[j].arm+1:
-                            pass
-                        else:
-                            temp=self.units[j]
-                            self.units[j]=self.units[i]
-                            self.units[j].pos=j
-                            self.units[i]=temp
-                            self.units[i].pos=i
-                            break
-        for i in range(self.num_positions):
-            if self.units[i]!=None:
-                for j in range(enemy.num_positions):
-                    if enemy.units[j]!=None and enemy.units[j].hp<=self.units[i].hp:
-                        if self.units[j]==None:
-                            self.units[j]=self.units[i]
-                            self.units[j].pos=j
-                            self.units[i]=None
-                            break
-                        elif self.units[j]!=None and self.units[j].hp>=self.units[i].hp:
-                            pass
-                        else:
-                            temp=self.units[j]
-                            self.units[j]=self.units[i]
-                            self.units[j].pos=j
-                            self.units[i]=temp
-                            self.units[i].pos=i
-                            break
+        first_unit = self.units[0]
+        for i in range(self.num_positions - 1):
+            j = i + 1 
+            self.units[i] = self.units[j]
+            if self.units[i] != None:
+               self.units[i].pos = i 
+        # end of for
+        self.units[-1] = first_unit
+        if self.units[-1] != None:
+            self.units[-1].pos = self.num_positions - 1
 class TestTeam(unittest.TestCase):
     
     def test_team(self):
