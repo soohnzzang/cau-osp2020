@@ -1,1 +1,7 @@
-[SUCCESS] soohnzzang's module has been successfully imported!
+[ERROR]   File "/home/dwlee/repos/loa/loa/team.py", line 133, in check
+    self._check_constraints(team, league_round)
+  File "/home/dwlee/repos/loa/loa/team.py", line 419, in _check_constraints
+    self._check_cons_range(unit.name,
+  File "/home/dwlee/repos/loa/loa/team.py", line 495, in _check_cons_range
+    raise ValueError(err_msg)
+ValueError: [Unit1-01] The att of each unit should be within [5.00, 40.00], not 0.00!
